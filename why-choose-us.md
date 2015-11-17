@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Why Choose Us
+title: Why Choose Us?
 permalink: /why-choose-us/
-weight: 2
+weight: 1
 ---
 
 Having worked in a variety of different schools and for several tuition companies, we believe we offer the best service for the five following reasons:
 
 1. We are run by English teachers.
 
-    As a largely unregulated market, there are several tuition agencies who employ tutors who have minimal to no teaching experience.  HB Tuition only employs fully qualified English teachers to ensure you get the best value for your money.
+    As a largely unregulated market, there are several tuition agencies who employ tutors who have minimal to no teaching experience. Blue Sky Tuition only employs fully qualified English teachers to ensure you get the best value for your money.
 
 2. All of our tutors are currently working in schools.
 
-    It feels that there isn't a year that passes where there isn't a change to the National Curriculum, so it can be easy to lose touch on the subtle changes across the exam boards and various courses. Therefore, we only employ tutors who are currently teaching English, believing that an active teacher can offer the best service for a vital subject. 
+    It feels that there isn't a year that passes where there isn't a change to the National Curriculum, so it can be easy to lose touch on the subtle changes across the exam boards and various courses. Therefore, we only employ tutors who are currently teaching English, believing that an active teacher can offer the best service for a vital subject.
 
 3. We charge you the same amount and pay our tutors the same amount.
 

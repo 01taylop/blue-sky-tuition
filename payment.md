@@ -5,4 +5,10 @@ permalink: /payment/
 weight: 4
 ---
 
-We believe in being straightforward and transparent with payments. Whether you're a KS3 tutee needing to improve your writing skills or are studying your A Levels and need guidance with coursework, we charge £50 p/h. For this fee, we guarantee you a Personalised Learning Programme devised by a specialist in the subject and for your specific needs.
+We have three tiers of tutor and believe in being straightforward and transparent with payments:
+
+- Tier One: These tutors are new to the profession with one or two years of experience and would cost £35 per hour. These tutors would be suitable for a KS3 student.
+
+- Tier Two: These tutors have at least three years of experience and would cost £40 and would cost £40 per hour. These tutors would be suitable for a GCSE student.
+
+- Tier Three: These are our most experienced tutors and hold or have held senior posts within an English department. These tutors would cost £45 per hour and would be suitable for a GCSE student or an A Level student.
