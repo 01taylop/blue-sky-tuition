@@ -2,6 +2,7 @@
 layout: page
 title: Values
 permalink: /values/
+weight: 1
 ---
 
 Our key values fall under two components: Honesty and Belief.
