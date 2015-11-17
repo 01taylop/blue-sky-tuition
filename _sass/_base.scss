@@ -12,21 +12,6 @@ p {
   margin: 0;
 }
 
-$grid-gutter-width: 30px;
-
-$screen-xs-min: 480px !default;
-$screen-sm-min: 768px !default;
-$screen-md-min: 992px !default;
-$screen-lg-min: 1200px !default;
-
-$screen-xs-max: ($screen-sm-min - 1) !default;
-$screen-sm-max: ($screen-md-min - 1) !default;
-$screen-md-max: ($screen-lg-min - 1) !default;
-
-$container-sm: (720px + $grid-gutter-width) !default;
-$container-md: (940px + $grid-gutter-width) !default;
-$container-lg: (1140px + $grid-gutter-width) !default;
-
 .container {
   margin-right: auto;
   margin-left: auto;
