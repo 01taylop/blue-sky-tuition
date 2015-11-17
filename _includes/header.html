@@ -1,14 +1,27 @@
-<header class="header">
-  <nav role="navigation" class="navigation">
+<header>
+  <nav class="navbar navbar-default" role="navigation">
     <div class="container">
-      <p>Hello</p>
-      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-      {% assign pages = site.pages | sort:"weight"  %}
-      {% for p in pages %}
-        {% if p.title %}
-        <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-        {% endif %}
-      {% endfor %}
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          {% assign pages = site.pages | sort:"weight"  %}
+          {% for p in pages %}
+            {% if p.title %}
+            <li><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+          <!-- //class="active" -->
+        </ul>
+      </div>
     </div>
   </nav>
 </header>
