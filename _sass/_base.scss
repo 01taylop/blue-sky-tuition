@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -8,30 +10,7 @@ html,body {
   height: 100%;
 }
 
-p {
-  margin: 0;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0;
-  background-color: green;
-
-  @media (min-width: $screen-sm-min) {
-    width: $container-sm;
-    background-color: yellow;
-  }
-  @media (min-width: $screen-md-min) {
-    width: $container-md;
-    background-color: orange;
-  }
-  @media (min-width: $screen-lg-min) {
-    width: $container-lg;
-    background-color: red;
-  }
-}
-
-.header {
-  background-color: #000;
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
