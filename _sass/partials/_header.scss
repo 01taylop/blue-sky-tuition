@@ -1,0 +1,52 @@
+$header-height: 70px;
+$brand-line-height: 38px;
+$brand-padding: ($header-height - $brand-line-height) / 2;
+$nav-line-height: 20px;
+$nav-padding: ($header-height - $nav-line-height) / 2;
+
+/* HEADER
+----------------------------------------------------------*/
+.header {
+  background-color: $header-bg;
+  .navbar {
+    margin: 0 0 20px 0;
+    color: $header-color;
+    border: none;
+    border-bottom: 1px solid #c4c6c9;
+    background-color: $header-bg;
+
+    @include border-radius(0px);
+    .navbar-brand {
+      font-size: 28px;
+      line-height: $brand-line-height;
+      height: $header-height;
+      padding: $brand-padding 15px;
+      color: $header-color;
+      .bluesky {
+        color: $brand-color;
+      }
+    }
+    .navbar-nav {
+      > li {
+        a {
+          font-size: 14px;
+          font-weight: 600;
+          line-height: $nav-line-height;
+          padding: $nav-padding 15px;
+          padding-bottom: $nav-padding - 4px;
+          color: $header-color;
+          border-bottom: 4px solid transparent;
+
+          @include transition(border-bottom-color .8s ease);
+          &:hover {
+            color: darken($header-color, 10%);
+            background: none;
+          }
+          &.active {
+            border-bottom-color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}

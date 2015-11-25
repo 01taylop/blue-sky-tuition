@@ -6,5 +6,8 @@
 // Partials
 @import
   "bootstrap",
-  "base"
+  "theme",
+  "mixins/all",
+  "partials/base",
+  "partials/header"
 ;

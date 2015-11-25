@@ -2,8 +2,8 @@
 <html>
   {% include head.html %}
   <body>
-    <div class='site'>
-      <div class='site-content'>
+    <div class="site">
+      <div class="site-content">
         {% include header.html %}
         <div class="container">
           {{ content }}
@@ -11,5 +11,8 @@
       </div>
       {% include footer.html %}
     </div>
+    <script type="text/javascript" src={{ "/js/jquery-2.1.4.min.js" | prepend: site.baseurl }}></script>
+    <script type="text/javascript" src={{ "/js/bootstrap.min.js" | prepend: site.baseurl }}></script>
+    <script type="text/javascript" src={{ "/js/bluesky.js" | prepend: site.baseurl }}></script>
   </body>
 </html>
