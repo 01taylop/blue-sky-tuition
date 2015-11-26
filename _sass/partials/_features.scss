@@ -38,12 +38,31 @@
     display: table;
     width: 100%;
     .grid-item {
-      display: table-cell;
-      width: 33%;
-      padding: 20px;
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 40px 20px;
       text-align: center;
+      .glyphicon {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0 0 20px 0;
+        color: $header-bg;
+      }
       h2,p {
         color: #666;
+      }
+      h2 {
+        font-weight: 400;
+        margin: 0 0 10px;
+      }
+      p {
+        margin: 0;
+      }
+      @media (min-width: $screen-sm-min) {
+        display: table-cell;
+        width: 33%;
       }
     }
   }
