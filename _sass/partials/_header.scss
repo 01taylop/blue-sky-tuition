@@ -7,7 +7,7 @@ $menu-button-width: 30px;
   .navbar {
     margin: 0 0 20px 0;
     border: none;
-    border-bottom: 4px solid #1a84bc;
+    border-bottom: $header-border;
     background-color: $header-bg;
 
     @include border-radius(0px);
@@ -93,6 +93,12 @@ $menu-button-width: 30px;
           }
         }
       }
+    }
+  }
+  &.header-feature {
+    .navbar {
+      margin: 0;
+      border: none;
     }
   }
 }

@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header {% if page.feature %}header-feature{% endif %}">
   <nav class="navbar" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -24,3 +24,6 @@
     </div>
   </nav>
 </header>
+{% if page.feature %}
+  {% include features/{{ page.feature }}.html %}
+{% endif %}
