@@ -17,6 +17,12 @@ $menu-button-width: 30px;
       height: 60px;
       padding: 14px 15px 10px 15px;
       color: $header-color;
+      img {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      }
       .bluesky {
         // color: $brand-color;
       }

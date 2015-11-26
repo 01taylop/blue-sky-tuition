@@ -1,8 +1,50 @@
 /* HOME FEATURE
 ----------------------------------------------------------*/
 .feature {
-  margin-bottom: 20px;
+  padding: 60px 0;
   color: #fff;
   border-bottom: $header-border;
   background-color: $header-bg;
+  h1,p {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 16px;
+    img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 20px;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+
+.sub-feature {
+  margin-bottom: 20px;
+  border-bottom: 1px solid darken(#f4f4f4, 4%);
+  background-color: #f4f4f4;
+  .grid {
+    display: table;
+    width: 100%;
+    .grid-item {
+      display: table-cell;
+      width: 33%;
+      padding: 20px;
+      text-align: center;
+      h2,p {
+        color: #666;
+      }
+    }
+  }
 }
