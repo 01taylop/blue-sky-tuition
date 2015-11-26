@@ -1,29 +1,25 @@
 $header-height: 70px;
-$brand-line-height: 38px;
-$brand-padding: ($header-height - $brand-line-height) / 2;
 $nav-line-height: 20px;
 $nav-padding: ($header-height - $nav-line-height) / 2;
 
 /* HEADER
 ----------------------------------------------------------*/
 .header {
-  background-color: $header-bg;
   .navbar {
     margin: 0 0 20px 0;
-    color: $header-color;
     border: none;
-    border-bottom: 1px solid #c4c6c9;
+    border-bottom: 4px solid #1a84bc;
     background-color: $header-bg;
 
     @include border-radius(0px);
     .navbar-brand {
-      font-size: 28px;
-      line-height: $brand-line-height;
-      height: $header-height;
-      padding: $brand-padding 15px;
+      font-size: 22px;
+      line-height: 32px;
+      height: 60px;
+      padding: 14px 15px 10px 15px;
       color: $header-color;
       .bluesky {
-        color: $brand-color;
+        // color: $brand-color;
       }
     }
     .navbar-nav {
@@ -31,19 +27,28 @@ $nav-padding: ($header-height - $nav-line-height) / 2;
         a {
           font-size: 14px;
           font-weight: 600;
-          line-height: $nav-line-height;
-          padding: $nav-padding 15px;
-          padding-bottom: $nav-padding - 4px;
           color: $header-color;
-          border-bottom: 4px solid transparent;
-
-          @include transition(border-bottom-color .8s ease);
-          &:hover {
-            color: darken($header-color, 10%);
-            background: none;
+          &:hover,&:focus {
+            background-color: rgba(255,255,255,.1);
           }
-          &.active {
-            border-bottom-color: $primary-color;
+        }
+      }
+    }
+    @media (min-width: $screen-sm-min) {
+      .navbar-brand {
+        font-size: 28px;
+        line-height: 38px;
+        height: 70px;
+        padding: 16px 15px 12px 15px
+      }
+      .navbar-nav {
+        > li {
+          a {
+            margin: 12px 0 10px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+
+            @include border-radius(4px);
           }
         }
       }
