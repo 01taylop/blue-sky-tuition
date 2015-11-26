@@ -1,6 +1,5 @@
-$header-height: 70px;
-$nav-line-height: 20px;
-$nav-padding: ($header-height - $nav-line-height) / 2;
+$menu-button-height: 20px;
+$menu-button-width: 30px;
 
 /* HEADER
 ----------------------------------------------------------*/
@@ -31,6 +30,48 @@ $nav-padding: ($header-height - $nav-line-height) / 2;
           &:hover,&:focus {
             background-color: rgba(255,255,255,.1);
           }
+        }
+      }
+    }
+    .navbar-toggle {
+      position: relative;
+      width: $menu-button-width;
+      height: $menu-button-height;
+      margin: 20px 15px 20px 0;
+      padding: 0;
+      border: none;
+      &:focus,&:active,&:hover {
+        background-color: transparent;
+      }
+      .icon-bar {
+        position: absolute;
+        left: 0;
+        display: block;
+        width: $menu-button-width;
+        height: 2px;
+        margin: 0;
+        background: $header-color;
+
+        @include transition(all .3s ease);
+        &:nth-child(2) {
+          top: 0;
+        }
+        &:nth-child(3) {
+          top: 50%;
+        }
+        &:nth-child(4) {
+          top: 100%;
+        }
+      }
+      &:not(.collapsed) {
+        .icon-bar:nth-child(2) {
+          @include transform(0, $menu-button-height / 2, 45deg);
+        }
+        .icon-bar:nth-child(3) {
+          opacity: 0;
+        }
+        .icon-bar:nth-child(4) {
+          @include transform(0, $menu-button-height / 2 * -1, -45deg);
         }
       }
     }
