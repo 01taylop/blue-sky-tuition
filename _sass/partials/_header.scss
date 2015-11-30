@@ -5,7 +5,7 @@ $menu-button-width: 30px;
 ----------------------------------------------------------*/
 .header {
   .navbar {
-    margin: 0 0 20px 0;
+    margin: 0;
     border: none;
     border-bottom: $header-border;
     background-color: $header-bg;
@@ -26,12 +26,24 @@ $menu-button-width: 30px;
     }
     .navbar-nav {
       > li {
+        position: relative;
         a {
           font-size: 14px;
           font-weight: 600;
+          line-height: 16px;
           color: $header-color;
           &:hover,&:focus {
             background-color: rgba(255,255,255,.1);
+          }
+        }
+        @media (max-width: $screen-xs-max) {
+          &.active:after {
+            position: absolute;
+            top: 0;
+            width: 4px;
+            height: 100%;
+            content: '';
+            background-color: #fff;
           }
         }
       }
