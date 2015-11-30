@@ -12,11 +12,11 @@ html,body {
 
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: $font-size;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
   min-width: 320px;
+  color: $font-color;
   background-color: #fff;
 
   -webkit-overflow-scrolling: touch;
@@ -24,8 +24,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @media (min-width: $screen-sm-min) {
+    font-size: $font-size;
     line-height: $line-height;
-    color: $font-color;
   }
 }
 
