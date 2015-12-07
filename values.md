@@ -5,9 +5,9 @@ permalink: /values/
 weight: 2
 ---
 
-At Bluesky Tuition we provide a bespoke service for each student and their individual needs. We believe that all students, with the correct support and guidance, can reach their full potential in English.
+We provide a bespoke service for each student and their individual needs. All students, with the correct support and guidance, can reach their full potential in English.
 
-We also believe in creating a network of support for each students. 7
+We also believe in creating a network of support for each student. After each session there will be a short consultation between tutor, parent and student to discuss progress. Contact is also made with the tutees school to ensure the tutee is recieving consistent instructions.
 
-Contrary to common belief, we believe that the gap between students who excel at English and those that struggle is not that large. What separates them, in most cases, is self belief. Through our Personalised Learning Programmes and detailed discussions with all our tutees, we are certain that we can give them the belief to reach their aims.
+Effort, attention to detail and a love for English are all traits that our tutors have but also try to instil in their tutees.   
 7
