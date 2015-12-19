@@ -1,9 +1,11 @@
+$post-padding: 40px;
+
 /* PAGES
 ----------------------------------------------------------*/
 article.post {
   width: 100%;
   margin: 40px 0;
-  padding: 35px 40px 40px 40px;
+  padding: 35px $post-padding $post-padding;
   word-break: break-word;
   background-color: #fff;
 
@@ -16,6 +18,12 @@ article.post {
   .post-content {
     font-size: 15px;
     line-height: 20px;
+    .post-image {
+      margin: 0 (-$post-padding);
+      img {
+        width: 100%;
+      }
+    }
   }
   .page-feature {
     width: 100%;
