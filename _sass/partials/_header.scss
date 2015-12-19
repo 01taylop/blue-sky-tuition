@@ -6,6 +6,7 @@ $menu-button-width: 30px;
 .header {
   .navbar {
     margin: 0;
+    padding: 4px 0;
     border: none;
     border-bottom: $header-border;
     background-color: $header-bg;
@@ -13,14 +14,14 @@ $menu-button-width: 30px;
     @include border-radius(0px);
     .navbar-brand {
       font-size: 22px;
-      line-height: 32px;
-      height: 60px;
-      padding: 14px 15px 10px 15px;
+      font-weight: 600;
+      height: 50px;
+      padding: 12px 15px;
       color: $header-color;
       img {
         display: inline-block;
-        width: 40px;
-        height: 40px;
+        width: 32px;
+        height: 32px;
         margin-right: 10px;
       }
     }
@@ -28,12 +29,12 @@ $menu-button-width: 30px;
       > li {
         position: relative;
         a {
-          font-size: 14px;
+          font-size: 15px;
           font-weight: 600;
-          line-height: 16px;
+          line-height: 17px;
           color: $header-color;
           &:hover,&:focus {
-            background-color: rgba(255,255,255,.1);
+            background-color: darken($header-bg, 5%);
           }
         }
         @media (max-width: $screen-xs-max) {
@@ -52,7 +53,7 @@ $menu-button-width: 30px;
       position: relative;
       width: $menu-button-width;
       height: $menu-button-height;
-      margin: 20px 15px 20px 0;
+      margin: 15px 15px 15px 0;
       padding: 0;
       border: none;
       &:focus,&:active,&:hover {
@@ -91,28 +92,42 @@ $menu-button-width: 30px;
       }
     }
     @media (min-width: $screen-sm-min) {
+      padding: 5px 0;
       .navbar-brand {
         font-size: 26px;
-        line-height: 38px;
-        height: 70px;
-        padding: 16px 15px 12px 15px
+        height: 60px;
+        padding: 15px 15px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
       }
       .navbar-nav {
         > li {
+          margin-left: 15px;
           a {
-            margin: 16px 0 10px;
-            padding-top: 14px;
-            padding-bottom: 14px;
+            margin: 11px 0 8px 0;
+            padding-top: 12px;
+            padding-bottom: 12px;
 
             @include border-radius(4px);
           }
+          &.active a {
+            background-color: darken($header-bg, 5%);
+          }
         }
+      }
+    }
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      padding: 0;
+      .navbar-nav {
+        float: left !important;
+        margin-left: -30px;
       }
     }
   }
   &.header-feature {
     .navbar {
-      margin: 0;
       border: none;
     }
   }
