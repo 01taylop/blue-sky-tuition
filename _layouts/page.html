@@ -29,9 +29,9 @@ layout: default
 
   {% if page.subcontent %}
     <div class="{{ coltwo }}">
-      {% for sub in page.subcontent %}
+      {% for content in page.subcontent %}
          <article class="post">
-            <p>Hello</p>
+            {% include content/{{ content }}.html %}
           </article>
       {% endfor %}
     </div>
