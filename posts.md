@@ -4,6 +4,7 @@ title: Posts
 permalink: /posts/
 weight: 3
 image: pens
+subcontent: [recentposts, contact]
 ---
 
 <ul class="post-list">

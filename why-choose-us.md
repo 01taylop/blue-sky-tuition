@@ -4,6 +4,7 @@ title: Why Choose Us?
 permalink: /why-choose-us/
 weight: 1
 image: why_choose_us
+subcontent: [consultation, contact]
 ---
 
 Having worked in a variety of different schools and for several tuition companies, we believe we offer the best service for the five following reasons:
