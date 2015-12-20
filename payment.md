@@ -3,6 +3,7 @@ layout: page
 title: Payment
 permalink: /payment/
 weight: 4
+image: payment
 ---
 
 We have three tiers of tutor and believe in being straightforward and transparent with payments:

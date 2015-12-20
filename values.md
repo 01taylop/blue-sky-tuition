@@ -3,6 +3,7 @@ layout: page
 title: Values
 permalink: /values/
 weight: 2
+image: values
 ---
 
 We provide a bespoke service for each student and their individual needs. All students, with the correct support and guidance, can reach their full potential in English.

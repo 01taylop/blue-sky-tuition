@@ -3,6 +3,7 @@ layout: page
 title: Posts
 permalink: /posts/
 weight: 3
+image: pens
 ---
 
 <ul class="post-list">
