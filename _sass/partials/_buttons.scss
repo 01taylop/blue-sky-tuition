@@ -1,0 +1,8 @@
+.btn-primary {
+  border-color: $header-bg;
+  background-color: $header-bg;
+  &:hover,&:focus {
+    border-color: darken($header-bg, 5%);
+    background-color: darken($header-bg, 5%);
+  }
+}

@@ -107,3 +107,16 @@ $feature-image-overflow-mobile: 60px;
     }
   }
 }
+
+.feature-content {
+  padding-bottom: 30px;
+  hr {
+    height: 1px;
+    margin: 10px 0 40px 0;
+    border: 0;
+    background-image: linear-gradient(to right, rgba(102, 102, 102, 0), rgba(102, 102, 102, .6), rgba(102, 102, 102, 0));
+  }
+  p {
+    color: #666;
+  }
+}
