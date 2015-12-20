@@ -1,5 +1,5 @@
 footer {
-  font-size: 13px;
+  font-size: 14px;
   padding-top: 0px;
   padding-bottom: 30px;
   color: #999;
@@ -12,6 +12,26 @@ footer {
     &:hover {
       text-decoration: underline;
       color: #999;
+    }
+  }
+}
+
+a.social-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  .username {
+    vertical-align: middle;
+  }
+  &:hover {
+    text-decoration: none;
+    .username {
+      text-decoration: underline;
     }
   }
 }

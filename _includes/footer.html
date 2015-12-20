@@ -3,9 +3,9 @@
     <div class="row">
       <div class="col-sm-12 col-md-3">
         <h4>Get In Touch</h4>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a><br />
-        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">@{{ site.twitter_username }}</a><br />
-        <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">{{ site.facebook_username }}</a>
+        {% include icon-email.html username=site.email %}
+        {% include icon-twitter.html username=site.twitter_username %}
+        {% include icon-facebook.html username=site.facebook_username %}
       </div>
       <div class="col-sm-12 col-md-3">
         <h4>Links</h4>
