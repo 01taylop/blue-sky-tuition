@@ -1,0 +1,19 @@
+a.social-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  .username {
+    vertical-align: middle;
+  }
+  &:hover,&:focus {
+    text-decoration: none;
+    .username {
+      text-decoration: underline;
+    }
+  }
+}
