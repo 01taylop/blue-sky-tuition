@@ -1,4 +1,4 @@
-$feature-image-overflow: 160px;
+$feature-image-overflow: 80px;
 $feature-image-overflow-mobile: 60px;
 
 /* HOME FEATURE
@@ -48,58 +48,61 @@ $feature-image-overflow-mobile: 60px;
   }
 }
 
-.feature-image {
-  background-color: #f4f4f4;
-  img {
-    width: 100%;
-    margin-top: -$feature-image-overflow-mobile;
-    margin-bottom: 10px;
-    border: 4px solid #fff;
-    background-color: #fff;
-    @media (min-width: $screen-sm-min) {
-      margin-top: -$feature-image-overflow;
-    }
-  }
-}
-
-.sub-feature {
+.feature-grid {
   margin-bottom: 20px;
-  border-bottom: 1px solid darken(#f4f4f4, 4%);
+  border-bottom: 1px solid darken(#f4f4f4, 6%);
   background-color: #f4f4f4;
   .grid {
     display: table;
     width: 100%;
+    margin-top: -$feature-image-overflow-mobile;
     .grid-item {
       display: block;
-      width: 100%;
       max-width: 300px;
       margin: 0 auto;
-      padding: 30px 20px;
-      text-align: center;
-      .glyphicon {
-        font-size: 40px;
-        line-height: 40px;
-        margin: 0 0 20px 0;
-        color: $header-bg;
+      img {
+        display: block;
+        width: 100%;
+        border: 4px solid #fff;
+        background-color: #fff;
       }
-      h2,p {
-        color: #666;
+      .quality {
+        padding: 30px 0 50px;
+        text-align: center;
+        .glyphicon {
+          font-size: 40px;
+          line-height: 40px;
+          margin: 0 0 20px 0;
+          color: $header-bg;
+        }
+        h2,p {
+          color: #666;
+        }
+        h2 {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 24px;
+          margin: 0 0 10px;
+        }
+        p {
+          font-size: 15px;
+          line-height: 20px;
+          margin: 0;
+        }
       }
-      h2 {
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 24px;
-        margin: 0 0 10px;
-      }
-      p {
-        font-size: 15px;
-        line-height: 20px;
-        margin: 0;
-      }
-      @media (min-width: $screen-sm-min) {
+    }
+    .spacer {
+      display: none;
+    }
+    @media (min-width: $screen-sm-min) {
+      margin-top: -$feature-image-overflow;
+      .grid-item {
         display: table-cell;
-        width: 33%;
-        padding: 80px 20px;
+        width: 30%;
+      }
+      .spacer {
+        display: table-cell;
+        width: 3%;
       }
     }
   }
