@@ -8,9 +8,8 @@
 # Site settings
 title: Blue Sky Tuition
 email: hello@blueskytuition.co.uk
-description: > # this means to ignore newlines until "baseurl:"
-  Bluesky Tuition is a private tuition service run by fully qualified English teachers. Our team of professionals offer quality, individual and personalised English tuition to homes across East London and Essex.    
-baseurl: "/blue-sky-tuition" # the subpath of your site, e.g. /blog
+description: > # this means to ignore newlines
+  Bluesky Tuition is a private tuition service run by fully qualified English teachers. Our team of professionals offer quality, individual and personalised English tuition to homes across East London and Essex.
 twitter_username: blueskytuition
 facebook_username: blueskytuition
 github_username:  01taylop
