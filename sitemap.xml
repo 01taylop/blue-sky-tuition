@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://blueskytuition.co.uk/</loc>
+  <lastmod>2015-12-20T23:17:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://blueskytuition.co.uk/why-choose-us/</loc>
+  <lastmod>2015-12-20T23:17:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://blueskytuition.co.uk/values/</loc>
+  <lastmod>2015-12-20T23:17:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://blueskytuition.co.uk/posts/</loc>
+  <lastmod>2015-12-20T23:17:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://blueskytuition.co.uk/payment/</loc>
+  <lastmod>2015-12-20T23:17:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://blueskytuition.co.uk/contact/</loc>
+  <lastmod>2015-12-20T23:17:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://blueskytuition.co.uk/jekyll/update/2015/11/15/welcome-to-jekyll.html</loc>
+  <lastmod>2015-12-20T23:17:30+00:00</lastmod>
+</url>
+</urlset>
