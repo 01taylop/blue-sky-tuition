@@ -1,5 +1,10 @@
 $(document).ready(function() {
-
+  //Email success message
+  var url = window.location.href;
+  var query_str = url.substr(url.indexOf('?') + 1, url.length - 1);
+  if (query_str === 'thanks') {
+    $('.email-sent').show();
+  }
 });
 
 $(window).load(function() {
