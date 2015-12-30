@@ -16,4 +16,7 @@ subcontent: [recent-posts, contact]
       <p><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></p>
     </li>
   {% endfor %}
+  {% if site.posts.size == 0 %}
+    <p>There are currently no posts to display.</p>
+  {% endif %}
 </ul>
