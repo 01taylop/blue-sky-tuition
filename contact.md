@@ -20,7 +20,7 @@ If you're interested in receiving some tuition for yourself or your child or if 
   <div class="form-group">
     <textarea class="form-control" rows="3" placeholder="Comment" name="body" required></textarea>
   </div>
-  <input type="hidden" name="_subject" value="General Enquiry" />
+  <input type="hidden" id="subject" name="_subject" data-value="General Enquiry" />
   <input type="text" name="_gotcha" style="display:none" />
   <button type="submit" class="btn btn-primary">Send</button>
 </form>
