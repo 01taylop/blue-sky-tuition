@@ -20,5 +20,6 @@ If you're interested in receiving some tuition for yourself or your child or if 
   <div class="form-group">
     <textarea class="form-control" rows="3" placeholder="Comment"></textarea>
   </div>
+  <input type="hidden" name="_subject" value="General Enquiry" />
   <button type="submit" class="btn btn-primary">Send</button>
 </form>
