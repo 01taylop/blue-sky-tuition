@@ -2,7 +2,7 @@
 layout: page
 title: Posts
 permalink: /posts/
-weight: 3
+weight: 4
 image: pens
 subcontent: [recent-posts, contact]
 ---

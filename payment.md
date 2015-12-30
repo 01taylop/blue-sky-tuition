@@ -2,9 +2,9 @@
 layout: page
 title: Payment
 permalink: /payment/
-weight: 4
+weight: 3
 image: payment
-subcontent: [payment-plans]
+subcontent: [consultation]
 ---
 
 Our payment structure is intentionally transparent and is directly linked to the level of experience of our tutors.
