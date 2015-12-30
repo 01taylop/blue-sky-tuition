@@ -1,24 +1,26 @@
-<h2>Consultation</h2>
-<p>We offer a free consultation to construct the best possible programme that will suit both you and your child's requirements.</p>
+<article class="post subpost">
+  <h2>Consultation</h2>
+  <p>We offer a free consultation to construct the best possible programme that will suit both you and your child's requirements.</p>
 
-<form action="//formspree.io/{{ site.email }}" method="POST">
-  <div class="form-group">
-    <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
-  </div>
-  <div class="form-group">
-    <input type="tel" class="form-control" id="number" placeholder="Phone Number" name="number" required>
-  </div>
-  <div class="form-group">
-    <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto" required>
-  </div>
-  <div class="form-group">
-    <input type="text" class="form-control" id="email" placeholder="Best time to call" name="call time">
-  </div>
-  <div class="form-group">
-    <textarea class="form-control" rows="3" placeholder="Comment" name="body" required></textarea>
-  </div>
-  <input type="hidden" id="subject" name="_subject" data-value="Consultation" />
-  <input type="hidden" name="_next" value="{{ page.permalink | prepend: site.url | append: '?thanks' }}" />
-  <input type="text" name="_gotcha" style="display:none" />
-  <button type="submit" class="btn btn-primary">Send</button>
-</form>
+  <form action="//formspree.io/{{ site.email }}" method="POST">
+    <div class="form-group">
+      <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
+    </div>
+    <div class="form-group">
+      <input type="tel" class="form-control" id="number" placeholder="Phone Number" name="number" required>
+    </div>
+    <div class="form-group">
+      <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto" required>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="email" placeholder="Best time to call" name="call time">
+    </div>
+    <div class="form-group">
+      <textarea class="form-control" rows="3" placeholder="Comment" name="body" required></textarea>
+    </div>
+    <input type="hidden" id="subject" name="_subject" data-value="Consultation" />
+    <input type="hidden" name="_next" value="{{ page.permalink | prepend: site.url | append: '?thanks' }}" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+</article>

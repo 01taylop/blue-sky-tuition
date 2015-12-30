@@ -36,9 +36,7 @@ layout: default
   {% if page.subcontent %}
     <div class="{{ coltwo }}">
       {% for content in page.subcontent %}
-         <article class="post subpost">
-            {% include content/{{ content }}.html %}
-          </article>
+        {% include content/{{ content }}.html %}
       {% endfor %}
     </div>
   {% endif %}
