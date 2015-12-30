@@ -15,7 +15,7 @@ If you're interested in receiving some tuition for yourself or your child or if 
     <input type="text" class="form-control" id="name" placeholder="Name">
   </div>
   <div class="form-group">
-    <input type="email" class="form-control" id="email" placeholder="Email">
+    <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto">
   </div>
   <div class="form-group">
     <textarea class="form-control" rows="3" placeholder="Comment"></textarea>
